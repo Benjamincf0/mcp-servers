@@ -1,0 +1,12 @@
+[project]
+name = "job-search"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "google-search-results>=2.4.2",
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.22.0",
+    "python-dotenv>=1.2.1",
+]
